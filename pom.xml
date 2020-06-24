@@ -54,7 +54,7 @@
                     <effort>Max</effort>
                     <threshold>Low</threshold>
                     <xmlOutput>false</xmlOutput>
-                    <excludeFilterFile>${spotbugs.excludeFileBaseDir}/utility/spotbugs/spotbugs-exclude.xml</excludeFilterFile>
+                    <excludeFilterFile>${spotbugs.excludeFileBaseDir}/utility/findbugs-exclude.xml</excludeFilterFile>
                     <includeTests>true</includeTests>
                 </configuration>
                 <executions>
