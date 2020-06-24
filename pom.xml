@@ -15,6 +15,7 @@
 
     <properties>
         <site.basedir>${project.basedir}</site.basedir>
+        <spotbugs.excludeFileBaseDir>${project.parent.basedir}</spotbugs.excludeFileBaseDir>
     </properties>
 
     <dependencies>
@@ -53,8 +54,7 @@
                     <effort>Max</effort>
                     <threshold>Low</threshold>
                     <xmlOutput>false</xmlOutput>
-                    <excludeFilterFile>${maven.multiModuleProjectDirectory}/utility/findbugs-exclude.xml
-                    </excludeFilterFile>
+                    <excludeFilterFile>${spotbugs.excludeFileBaseDir}/utility/spotbugs/spotbugs-exclude.xml</excludeFilterFile>
                     <includeTests>true</includeTests>
                 </configuration>
                 <executions>
