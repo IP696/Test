@@ -59,7 +59,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>check</id>
+                        <id>install</id>
                         <phase>install</phase>
                         <goals>
                             <goal>spotbugs</goal>
